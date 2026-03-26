@@ -23,4 +23,3 @@ def hamming_distance(bin1, bin2):
         new = "".join(hamming)
         final = int(new)
         return final
-print(hamming_distance("10101010", "01010110"))
